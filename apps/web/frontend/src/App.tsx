@@ -6,6 +6,7 @@ import { Button } from "./components/ui/ui/button";
 // import "styles/globals.css";
 import "./index.css";
 import { Form } from "./components/ui/Form";
+import { Toaster } from "sonner";
 
 // import logo from "./logo.svg";
 // import reactLogo from "./react.svg";
@@ -14,6 +15,7 @@ export function App() {
   return (
     <div>
       <Form/>
+      <Toaster position="bottom-left"/>
     </div>
   )
 }
